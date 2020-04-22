@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'project0',
     'mywebpage',
+    'secpage',
 ]
 
 MIDDLEWARE = [
