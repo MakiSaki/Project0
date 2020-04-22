@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'project0',
     'mywebpage',
     'secpage',
+
 ]
 
 MIDDLEWARE = [

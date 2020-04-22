@@ -1,0 +1,156 @@
+body{
+    background-color: #2f2f2b;
+    font-family: montserrat,sans-serif,Arial;
+    letter-spacing: -1px;
+}
+
+
+.nav-link{
+    color:white;
+
+}
+
+.container{
+    margin-top:6%;
+    
+}
+
+
+#main_image{
+    width: 100%;
+    height: 100%;
+}
+#overlay_image{
+    position: absolute;
+    top: 6.9%;
+    left: 23%;
+    z-index:12;
+}
+
+
+.overlay { 
+    color:#FAF8F3;
+    position:absolute;
+    z-index:12;
+    top:38%;
+    left:7%;
+    width:100%;
+    text-align:left;
+    line-height: 40px;
+    font-weight: 700%;
+    font-size: 150px;
+      
+  }
+
+.mid{  
+    color:#FAF8F3;
+    padding:100px 160px 100px 160px;
+    background-color: #3a3a37;
+    vertical-align: baseline;
+    width:100%;
+}
+  
+
+.dropbtn {
+    background-color: #2f2f2b;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #2f2f2b;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: #FAF8F3;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  #line {
+    width: 35px;
+    height: 5px;
+    background-color: #555750;
+    margin: 6px 0;
+  }
+  
+  .dropdown-content a:hover {background-color: #2f2f2b;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #2f2f2b;}
+
+  .carousel-indicators li {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 2px;
+    text-indent: 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 0%;
+    background-color: #FAF8F3;
+    right:68%;
+    /* box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5);        */
+  list-style-type: square;
+}
+
+
+.carousel-indicators .active {
+    width: 20px;
+    height: 20px;
+    margin: 2px;
+    background-color: #ffff99;
+}
+
+
+.zig{
+  width:10%;
+  right:78.1%;
+  z-index: 999;
+  position: absolute;
+  z-index:12;
+}
+
+.word{
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+
+} 
+
+.pic1{
+  position: absolute;
+  width:56rem;
+}
+.info{
+  position: relative;
+  background-color: #fff;
+  display: block;
+  float: right;
+  width:55rem;
+  height:36.3rem;
+  text-align: left;
+  padding-top: 15rem;
+  padding-right: 5rem;
+  padding-left: 5rem;
+  font-size: x-large;
+  color: black;
+
+
+}
