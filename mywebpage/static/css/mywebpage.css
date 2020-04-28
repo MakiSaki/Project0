@@ -557,12 +557,12 @@ a {
   color: white;
  ;
 }
-
+ 
 
 
 .st {
   border: 1px solid #ddd0; /* Gray border */
-  padding-bottom: 2rem;
+  padding-bottom: 5rem;
   width: 100%; /* Set a small width */
   height:100%
 }
@@ -601,10 +601,3 @@ height: 15%;
   height:46rem;
 }
 
-
-
-
-.footer-copyright{
-  margin-top:15%;
-}
- 
