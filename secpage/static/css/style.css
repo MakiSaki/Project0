@@ -42,6 +42,10 @@ body{
       
   }
 
+.overlay:hover {
+  color:white;
+  }
+
 .mid{  
     color:#FAF8F3;
     padding:100px 160px 100px 160px;
