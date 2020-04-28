@@ -29,6 +29,8 @@ ALLOWED_HOSTS = []
 
 STATICFILES_DIRS = [
     "/project0/mywebpage/static",
+    "/project0/proone/static",
+    "/project0/protwo/static",
 ]
 
 # Application definition
@@ -43,8 +45,13 @@ INSTALLED_APPS = [
     'project0',
     'mywebpage',
     'secpage',
+    'proone',
+    'protwo',
+    'send',
+    
 
 ]
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -125,5 +132,4 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
 STATIC_URL = '/static/'
-
 

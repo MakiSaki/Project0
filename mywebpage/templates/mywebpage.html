@@ -1,162 +1,232 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+ 
+</head>
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    {% load static %}
-
-<link rel="stylesheet" type="text/css" href="{% static 'css/mywebpage.css' %}">
-    <title >Hello, world!</title>
-  </head>
-  <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Nicole's Project0</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNavDropdown">
-    <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Features</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Pricing</a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Dropdown link
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="http://localhost:8000/secpage/">2nd page</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <a class="dropdown-item" href="#">Something else here</a>
-        </div>
-      </li>
-    </ul>
-    </div>
-    </nav>
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
     
-    <container>
-    <img src="https://images.pexels.com/photos/749090/pexels-photo-749090.jpeg?cs=srgb&dl=brown-rock-formation-749090.jpg&fm=jpg" class="img-fluid" alt="Responsive image">
-    <h2 class="off-center">The more that you read,<br> the more things you will know. <br>The more that you learn, the more places you’ll go.
-    </h2>
-    </container>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/mywebpage.css' %}">
 
-    <div class="container">
-  <div class="text-center">
-    <h1>Oh the places you'll go!</h1>
-  </div>
-  <div class="container">
-    <div class="card-columns">
-      <div class="card">
-        <a href="#">
-        <img class="card-img-top" src="https://images.unsplash.com/photo-1535025639604-9a804c092faa?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6cb0ceb620f241feb2f859e273634393&auto=format&fit=crop&w=500&q=80" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">The Wave</h5>
-          <p class="card-text">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusantium ad alias, aliquid amet aspernatur atque culpa cum debitis dicta doloremque, dolorum ea eos et excepturi explicabo facilis harum illo impedit incidunt laborum laudantium...
-          </p>
-          <p class="card-text"><small class="text-muted"><i class="fas fa-eye"></i>1000<i class="far fa-user"></i>admin<i class="fas fa-calendar-alt"></i>Jan 20, 2018</small></p>
-      </div>
-        </a>
-      </div>
-      <div class="card">
-        <a href="#">
-        <img class="card-img-top" src="https://images.unsplash.com/photo-1472076638602-b1f8b1ac0b4a?ixlib=rb-0.3.5&s=63c9de7246b535be56c8eaff9b87dd89&auto=format&fit=crop&w=500&q=80" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">BRYCE CANYON</h5>
-          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio iusto maxime nemo omnis praesentium similique.</p>
-          <p class="card-text"><small class="text-muted"><i class="fas fa-eye"></i>1000<i class="far fa-user"></i>admin<i class="fas fa-calendar-alt"></i>Jan 20, 2018</small></p>
-        </div>
-        </a>
-      </div>
-      <div class="card">
-        <a href="#">
-        <img class="card-img-top" src="https://images.unsplash.com/photo-1535086181678-5a5c4d23aa7d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=34c86263bec2c8f74ceb74e9f4c5a5fc&auto=format&fit=crop&w=500&q=80" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">ZION ANTIONAL PARK</h5>
-          <p class="card-text">Amet commodi deleniti enim laboriosam odio placeat praesentium quis ratione rerum suscipit.</p>
-          <p class="card-text"><small class="text-muted"><i class="fas fa-eye"></i>1000<i class="far fa-user"></i>admin<i class="fas fa-calendar-alt"></i>Jan 20, 2018</small></p>
-        </div>
-        </a>
-      </div>
-      <div class="card">
-        <a href="#">
-        <img class="card-img-top" src="https://images.unsplash.com/photo-1535074153497-b08c5aa9c236?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d2aaf944a59f16fe1fe72f5057b3a7dd&auto=format&fit=crop&w=500&q=80" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Arches National Park</h5>
-          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          <p class="card-text"><small class="text-muted"><i class="fas fa-eye"></i>1000<i class="far fa-user"></i>admin<i class="fas fa-calendar-alt"></i>Jan 20, 2018</small></p>
-        </div>
-        </a>
-      </div>
-      <div class="card">
-        <a href="#">
-        <img class="card-img-top" src="https://images.unsplash.com/photo-1535124406821-d2848dfbb25c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=98c434d75b44c9c23fc9df2a9a77d59f&auto=format&fit=crop&w=500&q=80" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Moab Museum</h5>
-          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, consequatur culpa cumque deserunt dignissimos error explicabo fugiat harum ipsam magni minus mollitia nemo perferendis qui repellendus rerum saepe vel voluptate voluptatem voluptatum!
-            Aperiam, labore, molestiae!..</p>
-          <p class="card-text"><small class="text-muted"><i class="fas fa-eye"></i>1000<i class="far fa-user"></i>admin<i class="fas fa-calendar-alt"></i>Jan 20, 2018</small></p>
-        </div>
-        </a>
-      </div>
-      <div class="card">
-        <a href="#">
-        <img class="card-img-top" src="https://images.unsplash.com/photo-1508015926936-4eddcc6d4866?ixlib=rb-0.3.5&s=10b3a8717ab609be8d7786cab50c4e0b&auto=format&fit=crop&w=500&q=80" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Mt. Raymond.</h5>
-          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque commodi debitis eaque explicabo fuga maiores necessitatibus, neque omnis optio vel!</p>
-          <p class="card-text"><small class="text-muted"><i class="fas fa-eye"></i>1000<i class="far fa-user"></i>admin<i class="fas fa-calendar-alt"></i>Jan 20, 2018</small></p>
-        </div>
-        </a>
-      </div>
-    </div>
-  </div>
+    {% load static %}
+    <script src="{% static 'js/page.js' %}"></script>
+    
+    <title >Resume</title>
+  
+  
+  </head>
 
-  <table class="table table-dark">
-  <thead>
-    <tr>
-      <th scope="col">#</th>
-      <th scope="col">First</th>
-      <th scope="col">Last</th>
-      <th scope="col">Handle</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">1</th>
-      <td>Mark</td>
-      <td>Otto</td>
-      <td>@mdo</td>
-    </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td>Jacob</td>
-      <td>Thornton</td>
-      <td>@fat</td>
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td>Larry</td>
-      <td>the Bird</td>
-      <td>@twitter</td>
-    </tr>
-  </tbody>
-</table>
+  <body>
+
+
+{% comment %} <div >
+  
+ <!-- Navbar -->
+  <div class="dropdown">
+  <button class="dropbtn">
+  <div id="line"></div>
+  <div id="line"></div>
+  <div id="line"></div>
+  <br>
+  </button>
+  <div class="dropdown-content">
+    <a href="http://localhost:8000/home/">Home</a>
+    <a href="http://localhost:8000/secpage/">Next page</a>
+    
+ </div>
+</div> {% endcomment %}
+
+
+
+
+<!-- Wrapper for carousel -->
+  <div>
+   
+    <div class="overlay-top">  <div class="details">Nicole Evans </div> </div>
+    <div class="overlay-topp">  web developer </div>
+    <div class="overlay-toppp">  Resume </div>
+    
+<!-- image -->
 </div>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  </body>
+
+
+
+  {% load static %}
+        {% comment %} <img class="img" src="{% static "images/per.jpg" %}" alt="My image" style="width:100%;">  {% endcomment %}
+        <video class="img"  autoplay muted loop>
+<source src="{% static 'images/wideoo.mp4' type='video/mp4' %}" style="min-width:100%"></video>
+
+
+ 
+      
+    
+
+ <section>
+<container class="mid">
+<div class="card" style="width: 80rem;">
+  <div class="card-body">
+     <div class="row">
+  
+  <div class="col"><h4>EMAIL ADDRESS</h4><br><h5>NicoleMaki@live.com</h5><br></div>
+  <div class="col"><h4>LOCATION</h4><br><h5>Miami, Florida</h5><br></div>
+</div>
+</div>
+   
+</container> 
+</section> 
+
+
+<div class ="info"> 
+<div class="row">
+  <div class="col col-lg-4"><div> {% load static %}
+        <img class="long" src="{% static "images/longg.jpg" %}" alt="image" ></div>
+</div>
+  <div class="col-7"> <h1>About me</h1>Self-taught front-end web developer eagerly looking to expand skillset with an established company. Aiming to leverage proven knowledge of web development and capacity planning to fill the Front-end developer role at your company.  </div>
+<div> 
+
+
+
+
+<section class="titleee">My tools</section>
+
+<link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,600,700,900" rel="stylesheet">
+
+<div class="three">
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card card-1">
+        <h3>HTML5</h3>
+        <p>The standard markup language used to structure and present content on the World Wide Web. </p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card card-2">
+        <h3>CSS</h3>
+        <p>Used for describing the presentation of a document written in a markup language.</p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card card-3">
+        <h3>Bootstrap</h3>
+        <p>The most popular HTML, CSS, and JavaScript framework for developing responsive, projects on the web.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="three">
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card card-4">
+        <h3>Django</h3>
+        <p>Python-based free, open-source, server-side web framework that allows quick app development.</p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card card-5">
+        <h3>Python</h3>
+        <p>Gseneral-purpose interpreted, interactive, object-oriented, and high-level programming language</p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card card-6">
+        <h3>SQL</h3>
+        <p>Structured Query Language. Back end language used to communicate with a database. </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="titlee" class="col-10"> 
+<div>
+<section class="title">Professional experience</section>
+<section>
+<container>
+<div class="card-7" style="width: 100rem;">
+  
+     <div class="row">
+  <div class="col-lg-3"><div><h4>Argo AI </h4><br></div>
+
+</h4></div>
+  <div class="col-8"> <div><b>Autonomous Vehicle Test Specialist</b> </div><i>June 2019 – April 2020 </i><br>
+  <br>Utilize software to collect data and troubleshoot real-world situations.  
+Provide daily, detailed, and accurate feedback to engineers. 
+Remain cognizant of all fleet updates. </div>
+  
+</div>
+</div>
+   
+</container> 
+</section>
+
+<section >
+<container class="mid-res">
+<div class="card-7" style="width: 100rem;">
+  
+     <div class="row">
+  <div class=" col-lg-3"><div><h4>Chewy.com</h4><br></div>
+
+</h4></div>
+  <div class="col-8"> <div><b>Customer Service Representative</b></div><i>August 2018 –June 2019 </i><br><br>
+  Identify customer concerns, create solutions, and implement a resolution that meets customer satisfaction. 
+Promoted to writing team after 3 months due to excellent customer service, organization, and communication skills. </div>
+  
+</div>
+</div>
+</div>
+</div>
+   
+</container> 
+</section>
+
+{% comment %} <div> {% load static %} <img src="{% static "images/mtn.png" %}" class="mtn"></div> {% endcomment %}
+
+
+<section class="titleee">Projects</section>
+
+
+<div class="container">
+  
+  <div class="row" >
+    <div class="col"><a href="/secpage/"><img  class ="st" src="{% static "images/1st.jpg" %}" alt="Forest"> </a></div>
+    <div class="col"><a href="/proone/"><img  class ="st" src="{% static "images/sec.jpg"  %}" alt="Forest"></a></div>
+    <div  class="col"><a href="/protwo/"><img  class ="st" src="{% static "images/ent.jpg" %}" alt="Forest"></a></div></div>
+    </div>
+   </div> 
+   <br>
+  </div>
+</div>
+</div>
+</div>
+</div>
+<br><br><div class="space"></div>
+</section>
+</container>
+
+
+<!-- Footer -->
+<footer class="page-footer font-small blue fixed-bottom">
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2020 Designed by: Nicole Maki Resume 
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+
 </html>
