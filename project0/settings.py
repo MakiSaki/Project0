@@ -47,7 +47,7 @@ INSTALLED_APPS = [
     'secpage',
     'proone',
     'protwo',
-    'send',
+    # 'send',
     
 
 ]

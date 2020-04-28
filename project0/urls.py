@@ -16,16 +16,16 @@ Including another URLconf
 from django.conf.urls import url, include
 from django.contrib import admin
 from django.urls import path, include
-from secpage.resources import NoteResource
-note_resource = NoteResource()
+# from secpage.resources import NoteResource
+# note_resource = NoteResource()
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('home/', include('mywebpage.urls')),
+    path('', include('mywebpage.urls')),
     path('secpage/', include('secpage.urls')),
     path('proone/', include('proone.urls')),
     path('protwo/', include('protwo.urls')),
-    path('send/', include('send.urls')),
+    # path('send/', include('send.urls')),
    
    
 ]
